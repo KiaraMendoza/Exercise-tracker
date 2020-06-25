@@ -13,7 +13,7 @@ import Main from "./components/main.component";
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div className="container-xl">
         <Navbar />
         <br />
         <Route path="/" exact component={ExercisesList} />
